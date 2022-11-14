@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="recomendacion.html">Recomendacion</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contactanos</h1>
+        <h2>Llena el siguiente formulario de contacto para poder enviarnos su sugerencia</h2>
+        <form action="" method="" id="formulario">
+            <fieldset>
+                <legend>Datos personales</legend>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <br>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" name="Apellido" id="Apellido">
+            <br>
+            <label for="Edad">Edad:</label>
+            <input type="number" name="Edad" id="Edad">
+            <br>
+            <label for="Fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" name="Fecha_nacimiento" id="Fecha_nacimiento">
+            <br>
+            <label for="Celular">Celular:</label>
+            <input type="number" name="Celular" id="Celular">
+            <br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="Email" placeholder="correo@ejemplo.com">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preferencia de Categorias</legend>
+                <label for="Categoria">Romance</label>
+                <input type="radio" name="Categoria" id="Categoria" value="Romance">
+                <label for="Categoria">Fantasia</label>
+                <input type="radio" name="Categoria" id="Categoria" value="Fantasia">
+                <label for="Categoria">Terror</label>
+                <input type="radio" name="Categoria" id="Categoria" value="Terror">
+                <label for="Categoria">Infantil</label>
+                <input type="radio" name="Categoria" id="Categoria" value="Infantil">
+                <label for="Categoria">Otro</label>
+                <input type="radio" name="Categoria" id="Categoria" value="Otro">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Año de lanzamiento</legend>
+                <label for="Año">2022</label>
+                <input type="checkbox" name="Año" id="Año" value="2022">
+                <label for="Año">2021</label>
+                <input type="checkbox" name="Año" id="Año" value="2021">
+                <label for="Año">2020</label>
+                <input type="checkbox" name="Año" id="Año" value="2020">
+                <label for="Año">Otro</label>
+                <input type="checkbox" name="Año" id="Año" value="Otro">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Idioma</legend>
+                <select name="Idioma" id="Idioma">
+                    <option value="Ingles">Ingles</option>
+                    <option value="Español">Español</option>
+                    <option value="Portugues">Portugues</option>
+                    <option value="Frances">Frances</option>
+                    <option value="Otro">Otro</option>
+               </select>
+            <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Compartenos tu libro favorito</legend>
+                <input type="file" name="Libro" id="Libro">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="Asunto">Asunto:</label>
+                <input type="text" name="Asunto" id="Asunto">
+                <br>
+                <label for="Mensaje">Mensaje:</label>
+                <br>
+                <textarea name="Contenido" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar campos">  
+        </form>
+    </main>
+    <footer>
+<a href="mailto:"></a>
+    </footer>
+</body>
+</html>
+
