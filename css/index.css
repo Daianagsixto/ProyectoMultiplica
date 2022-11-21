@@ -1,0 +1,42 @@
+body {
+    background-color: #ecd5e3;
+    color: #957dad;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*BARRA DE NAVEGACION*/
+header .nav_bar {
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #d8d7f6;
+    border: dotted 5px #906fa8;
+    border-radius: 10px;
+}
+
+.nav_bar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+
+.nav_bar ul li {
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.nav_bar ul li a {
+    color: #906fa8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section article .imagen_principal {
+    display: block;
+    margin: auto;
+    width: 325px;
+    border-radius: 15px;
+}
